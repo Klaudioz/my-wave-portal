@@ -1,0 +1,6 @@
+- `mkdir my-wave-portal && cd my-wave-portal && npm init`
+  - `npx hardhat`
+  - `npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers`
+  - `npx hardhat accounts` # Ethereum addresses that Hardhat generates for us to simulate real users on the blockchain
+  - `npx hardhat compile`
+  - `npx hardhat test`
